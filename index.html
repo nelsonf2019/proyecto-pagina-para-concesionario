@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0
+    ,maximum-scalabel=1.0, minimum-scalable=1.0">
+    <title>Room Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/styles.css">
+     
+</head>
+<body>
+    <!--Al principio se usa flexbox-->
+   <header class="main-header">
+       <div class="container container--flex"> <!--Sirve para que limitemos el contenido-->
+            <h1 class="main-title"> <span class="color-span">CAR´S</span>  DESIGN</h1> 
+            <nav class="main-nav">
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="" class="menu__link menu__link--select"><span>home</span></a></li>
+                    <li class="menu__item"><a href="" class="menu__link"><span>Service</span></a></li>
+                    <li class="menu__item"><a href="" class="menu__link"><span>Gallery</span></a></li>
+                    <li class="menu__item"><a href="" class="menu__link"><span>Contact</span></a></li>
+                    <div class="nav-social">
+                        <a href="" class="nav-social__item"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="nav-social__item"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="nav-social__item "><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </ul>
+            </nav>   
+         </div>
+    </header>
+   <div class="banner">
+        <div class="banner--content">
+            <h2 class="banner-title">01</h2>
+            <p class="banner-text">THIS YEAR I’VE COMPLETED MORE COMPLEX DESIGN PROJECTS.</p>
+        </div>
+    </div>
+    <!--La etiqueta main es para definir el contenido principal de la página-->
+    <main class="main">
+       <section class="welcome">
+         <h2 class="welcome--title">WELCOME</h2>
+         <p class="welcome--text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aperiam est voluptates deserunt nobis maiores nesciunt fuga, illo, quae doloribus nam quos quibusdam cum. Fugiat autem sit nulla veniam similique?</p>
+         <a href="" class="welcome--btn">Read More</a>
+       </section>
+       <section class="container-design">
+        <div class="design--item">
+            <h3 class="design--title">Gestoria propia del automotor</h3>
+            <img src="img/img1.jpg" alt="" class="design--img">
+        </div>
+        <div class="design--item">
+            <h3 class="design--title">Seguros del automotor</h3>
+            <img src="img/img2.jpg" alt="" class="design--img">
+        </div>
+        <div class="design--item">
+            <h3 class="design--title">Servicios integral del automotor</h3>
+            <img src="img/img3.jpg" alt="" class="design--img">
+        </div>
+        <div class="design--item">
+            <h3 class="design--title">Tomamos tu auto usado</h3>
+            <img src="img/img4.jpg" alt="" class="design--img">
+        </div>
+       </section>
+       <section class="container-testimonials">
+           <h3 class="testimonials__title"></h3>
+           <img src="" alt="" class="testimonials__img">
+           <p class="testimonials__txt"></p>
+           <p class="testimonials__name"></p>
+       </section>
+    </main>
+    <script src="js/menu.js"></script>
+</body>
+</html>
